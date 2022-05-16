@@ -1,0 +1,51 @@
+.Menu-Toggle-Icon {
+    border: none;
+    background: transparent;
+    padding: 0;
+    font-size: 1.75rem;
+    cursor: pointer;
+}
+
+.No-Menu-Items {
+    text-align: center;
+    margin: 40px 0;
+    font-weight: bold;
+}
+
+nav > div > ul > li {
+    margin: 30px 0;
+}
+
+.Menu-Btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    border: none;
+    background: transparent;
+    padding: 0;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+
+.Menu-Btn-Icon, .Menu-Item-Icon {
+    margin-inline-end: 8px;
+    font-size: 1.2rem;
+    color: #3a383a;
+}
+
+.Menu-Item {
+    display: flex;
+    align-items: center;
+    font-size: 0.8rem;
+}
+
+.Menu-Item-Title {
+    display: flex;
+    align-items: baseline;
+}
+
+.Menu-Item .Title, .Menu-Item-Title .Title {
+    margin: 0;
+    color: #3a383a;
+}

@@ -1,0 +1,12 @@
+.App-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 25px;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.Logo {
+    max-width: 300px;
+}

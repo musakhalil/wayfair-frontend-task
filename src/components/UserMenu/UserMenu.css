@@ -1,0 +1,59 @@
+.User-Menu-Container {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.Avatar-Button {
+    display: flex;
+    align-items: center;
+    border: none;
+    background: transparent;
+    padding: 0;
+    cursor: pointer;
+}
+
+.Avatar {
+    font-size: 1.6rem;
+}
+
+.Avatar.Expanded {
+    color: #7f187f;
+}
+
+.User-Menu {
+    display: none;
+}
+
+.User-Menu.Show {
+    display: block;
+}
+
+.User-Menu .User-Menu-Items {
+    margin: 0;
+    position: absolute;
+    background-color: #ffffff;
+    border: 1px solid #e4e4e4;
+    top: calc(100% + 5px);
+    right: 0;
+    box-shadow: 0 2px 7px 1px rgba(0,0,0,0.1);
+    padding: 5px 0;
+    min-width: 185px;
+}
+
+.User-Menu .User-Menu-Items li {
+    padding: 10px 20px;
+    white-space: nowrap;
+    font-size: 0.9rem;
+}
+
+.Nav-Header {
+    display: flex;
+    align-items: baseline;
+    margin: 0 15px;
+}
+
+.Username-Arrow {
+    font-size: 0.6rem;
+    margin-inline-start: 5px;
+}

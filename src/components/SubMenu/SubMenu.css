@@ -1,0 +1,29 @@
+.Show {
+    display: block;
+}
+
+.Dropdown {
+    margin: 15px 0 0;
+}
+
+.Submenu-Title {
+    position: relative;
+    display: block;
+    padding: 10px 20px;
+    font-size: 0.9rem;
+    cursor: default;
+    transition: all 0.2s ease-in-out;
+}
+
+.Submenu-Title:hover {
+    color: #7f187f;
+}
+
+.Submenu-Title:hover:before {
+    content: '•';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.3rem;
+}

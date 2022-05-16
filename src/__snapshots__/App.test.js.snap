@@ -1,0 +1,416 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Side Menu it renders fine when 1 item is sent to the component 1`] = `
+<nav
+  className="Menu-Open"
+  menuopen="true"
+>
+  <div>
+    <button
+      aria-pressed="true"
+      className="Menu-Toggle-Icon"
+      onClick={[Function]}
+      title="Menu-Button"
+    >
+      <svg
+        fill="currentColor"
+        height="1em"
+        stroke="currentColor"
+        strokeWidth="0"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"
+        />
+      </svg>
+    </button>
+    <ul>
+      <li>
+        <div>
+          <button
+            aria-expanded="false"
+            className="Menu-Btn"
+            onClick={[Function]}
+            type="button"
+          >
+            <span
+              className="Menu-Item-Title"
+            >
+              <svg
+                className="Menu-Btn-Icon"
+                fill="currentColor"
+                height="1em"
+                role="img"
+                stroke="currentColor"
+                strokeWidth="0"
+                style={
+                  Object {
+                    "color": undefined,
+                  }
+                }
+                viewBox="0 0 24 24"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title />
+                <path
+                  d="M1.63.47a.393.393 0 0 0-.39.39v2.417c0 .212.177.39.39.39h20.74c.213 0 .39-.178.39-.39V.859a.393.393 0 0 0-.39-.39zm-.045 4.126a.41.41 0 0 0-.407.337l-1.17 6.314C0 11.274 0 11.3 0 11.327v2.117c0 .23.186.416.416.416h23.168c.23 0 .416-.186.416-.416v-2.126c0-.027 0-.053-.009-.08l-1.169-6.305a.41.41 0 0 0-.407-.337zM1.7 14.781a.457.457 0 0 0-.46.46v7.829c0 .257.203.46.46.46h14.108c.257 0 .46-.203.46-.46v-6.589c0-.257.204-.46.461-.46h4.02c.258 0 .461.203.461.46v6.589c0 .257.204.46.46.46h.62a.456.456 0 0 0 .461-.46v-7.829a.458.458 0 0 0-.46-.46zm1.842 1.55h7.847c.212 0 .39.177.39.39V21.6c0 .212-.178.39-.39.39H3.542a.393.393 0 0 1-.39-.39v-4.88c0-.221.178-.39.39-.39Z"
+                />
+              </svg>
+              <h3
+                className="Title"
+              >
+                Reporting
+              </h3>
+            </span>
+            <span
+              className="Menu-Item-Arrow"
+            >
+              <svg
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                strokeWidth="0"
+                style={
+                  Object {
+                    "color": undefined,
+                  }
+                }
+                viewBox="0 0 448 512"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"
+                />
+              </svg>
+            </span>
+          </button>
+          <div>
+            <ul
+              className="Dropdown "
+            >
+              <li
+                aria-level="2"
+              >
+                <span
+                  className="Submenu-Title"
+                >
+                  Sales Dashboard
+                </span>
+              </li>
+              <li
+                aria-level="2"
+              >
+                <span
+                  className="Submenu-Title"
+                >
+                  Forecast
+                </span>
+              </li>
+              <li
+                aria-level="2"
+              >
+                <span
+                  className="Submenu-Title"
+                >
+                  Consumer Insights
+                </span>
+              </li>
+              <li
+                aria-level="2"
+              >
+                <span
+                  className="Submenu-Title"
+                >
+                  Supplier Registration Compliance
+                </span>
+              </li>
+              <li
+                aria-level="2"
+              >
+                <span
+                  className="Submenu-Title"
+                >
+                  Fulfillment Performance Diagnostics
+                </span>
+              </li>
+              <li
+                aria-level="2"
+              >
+                <span
+                  className="Submenu-Title"
+                >
+                  Lead Time Performance
+                </span>
+              </li>
+              <li
+                aria-level="2"
+              >
+                <span
+                  className="Submenu-Title"
+                >
+                  Customer Incidents Dashboard
+                </span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</nav>
+`;
+
+exports[`Side Menu it renders fine when 2 items are sent to the component 1`] = `
+<nav
+  className="Menu-Open"
+  menuopen="true"
+>
+  <div>
+    <button
+      aria-pressed="true"
+      className="Menu-Toggle-Icon"
+      onClick={[Function]}
+      title="Menu-Button"
+    >
+      <svg
+        fill="currentColor"
+        height="1em"
+        stroke="currentColor"
+        strokeWidth="0"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"
+        />
+      </svg>
+    </button>
+    <ul>
+      <li>
+        <div>
+          <button
+            aria-expanded="false"
+            className="Menu-Btn"
+            onClick={[Function]}
+            type="button"
+          >
+            <span
+              className="Menu-Item-Title"
+            >
+              <svg
+                className="Menu-Btn-Icon"
+                fill="currentColor"
+                height="1em"
+                role="img"
+                stroke="currentColor"
+                strokeWidth="0"
+                style={
+                  Object {
+                    "color": undefined,
+                  }
+                }
+                viewBox="0 0 24 24"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title />
+                <path
+                  d="M1.63.47a.393.393 0 0 0-.39.39v2.417c0 .212.177.39.39.39h20.74c.213 0 .39-.178.39-.39V.859a.393.393 0 0 0-.39-.39zm-.045 4.126a.41.41 0 0 0-.407.337l-1.17 6.314C0 11.274 0 11.3 0 11.327v2.117c0 .23.186.416.416.416h23.168c.23 0 .416-.186.416-.416v-2.126c0-.027 0-.053-.009-.08l-1.169-6.305a.41.41 0 0 0-.407-.337zM1.7 14.781a.457.457 0 0 0-.46.46v7.829c0 .257.203.46.46.46h14.108c.257 0 .46-.203.46-.46v-6.589c0-.257.204-.46.461-.46h4.02c.258 0 .461.203.461.46v6.589c0 .257.204.46.46.46h.62a.456.456 0 0 0 .461-.46v-7.829a.458.458 0 0 0-.46-.46zm1.842 1.55h7.847c.212 0 .39.177.39.39V21.6c0 .212-.178.39-.39.39H3.542a.393.393 0 0 1-.39-.39v-4.88c0-.221.178-.39.39-.39Z"
+                />
+              </svg>
+              <h3
+                className="Title"
+              >
+                Reporting
+              </h3>
+            </span>
+            <span
+              className="Menu-Item-Arrow"
+            >
+              <svg
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                strokeWidth="0"
+                style={
+                  Object {
+                    "color": undefined,
+                  }
+                }
+                viewBox="0 0 448 512"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"
+                />
+              </svg>
+            </span>
+          </button>
+          <div>
+            <ul
+              className="Dropdown "
+            >
+              <li
+                aria-level="2"
+              >
+                <span
+                  className="Submenu-Title"
+                >
+                  Sales Dashboard
+                </span>
+              </li>
+              <li
+                aria-level="2"
+              >
+                <span
+                  className="Submenu-Title"
+                >
+                  Forecast
+                </span>
+              </li>
+              <li
+                aria-level="2"
+              >
+                <span
+                  className="Submenu-Title"
+                >
+                  Consumer Insights
+                </span>
+              </li>
+              <li
+                aria-level="2"
+              >
+                <span
+                  className="Submenu-Title"
+                >
+                  Supplier Registration Compliance
+                </span>
+              </li>
+              <li
+                aria-level="2"
+              >
+                <span
+                  className="Submenu-Title"
+                >
+                  Fulfillment Performance Diagnostics
+                </span>
+              </li>
+              <li
+                aria-level="2"
+              >
+                <span
+                  className="Submenu-Title"
+                >
+                  Lead Time Performance
+                </span>
+              </li>
+              <li
+                aria-level="2"
+              >
+                <span
+                  className="Submenu-Title"
+                >
+                  Customer Incidents Dashboard
+                </span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div
+          className="Menu-Item"
+        >
+          <span
+            className="Menu-Item-Icon"
+          >
+            <svg
+              fill="currentColor"
+              height="1em"
+              role="img"
+              stroke="currentColor"
+              strokeWidth="0"
+              style={
+                Object {
+                  "color": undefined,
+                }
+              }
+              viewBox="0 0 24 24"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <title />
+              <path
+                d="M1.63.47a.393.393 0 0 0-.39.39v2.417c0 .212.177.39.39.39h20.74c.213 0 .39-.178.39-.39V.859a.393.393 0 0 0-.39-.39zm-.045 4.126a.41.41 0 0 0-.407.337l-1.17 6.314C0 11.274 0 11.3 0 11.327v2.117c0 .23.186.416.416.416h23.168c.23 0 .416-.186.416-.416v-2.126c0-.027 0-.053-.009-.08l-1.169-6.305a.41.41 0 0 0-.407-.337zM1.7 14.781a.457.457 0 0 0-.46.46v7.829c0 .257.203.46.46.46h14.108c.257 0 .46-.203.46-.46v-6.589c0-.257.204-.46.461-.46h4.02c.258 0 .461.203.461.46v6.589c0 .257.204.46.46.46h.62a.456.456 0 0 0 .461-.46v-7.829a.458.458 0 0 0-.46-.46zm1.842 1.55h7.847c.212 0 .39.177.39.39V21.6c0 .212-.178.39-.39.39H3.542a.393.393 0 0 1-.39-.39v-4.88c0-.221.178-.39.39-.39Z"
+              />
+            </svg>
+          </span>
+          <h3
+            className="Title"
+          >
+            Tickets
+          </h3>
+        </div>
+      </li>
+    </ul>
+  </div>
+</nav>
+`;
+
+exports[`Side Menu it renders fine when no items are sent to the component 1`] = `
+<nav
+  className="Menu-Open"
+  menuopen="true"
+>
+  <div>
+    <button
+      aria-pressed="true"
+      className="Menu-Toggle-Icon"
+      onClick={[Function]}
+      title="Menu-Button"
+    >
+      <svg
+        fill="currentColor"
+        height="1em"
+        stroke="currentColor"
+        strokeWidth="0"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"
+        />
+      </svg>
+    </button>
+    <div
+      className="No-Menu-Items"
+    >
+      <span>
+        No Menu Items!
+      </span>
+    </div>
+  </div>
+</nav>
+`;
