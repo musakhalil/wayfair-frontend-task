@@ -42,7 +42,13 @@ const SideMenu = ({ items, expandMenu, minimizeMenu }) => {
             setMenuOpen(true);
             expandMenu();
         }
-    } 
+    }
+
+    const handleMenuItemExpansion = (itemID) => {
+        setMenuExpanded(itemID);
+        setMenuOpen(true);
+        expandMenu();
+    }
     
     return (
         <nav className={menuOpen ? 'Menu-Open':''} menuopen={menuOpen.toString()}>
@@ -64,7 +70,7 @@ const SideMenu = ({ items, expandMenu, minimizeMenu }) => {
                             <button 
                                 type="button"
                                 aria-expanded={menuExpanded === item.id ? "true" : "false"}
-                                onClick={() => {(menuExpanded === item.id) ? setMenuExpanded(null) : setMenuExpanded(item.id);}}
+                                onClick={() => {(menuExpanded === item.id) ? setMenuExpanded(null) : handleMenuItemExpansion(item.id)}}
                                 className="Menu-Btn"
                             >
                                 {/* Here is where you can make the icons dynamic when importing the icons pack
