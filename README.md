@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+# wayfair-frontend-task
+Repo that contains the take home assessment project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Dependencies
+* React: 18.1.0
+* Node: 16.15.0
+* npm: 8.9.0
 
-## Available Scripts
+Package  | Version
+------------- | -------------
+@reduxjs/toolkit  | 1.8.1
+@testing-library/jest-dom  | 5.16.4
+@testing-library/react  | 13.2.0
+@testing-library/user-event  | 13.5.0
+axios  | 0.27.2
+bootstrap  | 5.1.3
+react-redux  | 8.0.1
+react-scripts  | 5.0.1
+react-icons  | 4.3.1
+react-test-renderer  | 18.1.0
 
-In the project directory, you can run:
+## Install the project locally & test it
+* Run 'git clone https://github.com/musakhalil/wayfair-frontend-task.git partnerhomeapplication' to get the project source
+* Run 'cd partnerhomeapplication' to enter project directory
+* Run 'npm install' to get modules/packages files required for the project
+* Run 'npm start' to run the application. Navigate to the localhost link shown in the cmd to access the application
 
-### `npm start`
+## Steps for building project using cmd.exe
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* Install create react package: npm install -g create-react-app
+* * Create react project: npx create-react-app partnerhomeapplication
+* Access created project: cd partnerhomeapplication
+* Install Redux: npm install react-redux
+* Install Redux Toolkit: npm install @reduxjs/toolkit
+* Install Bootstrap: npm install bootstrap
+* Install React Icons Package: npm install react-icons –save
+* Install Axios: npm install axios
+* Install Redux Mock Store for testing purposes: npm install redux-mock-store --save-dev
+* Install React Test Renderer for testing purposes : npm install react-test-renderer
+* Create assets folder: mkdir src\assets, then copy the files from src/assets directory in the repo
+* Create api folder: mkdir src\api, then copy the files from src/api directory in the repo
+* Create components folder: mkdir src\components, then copy the files from src/components directory in the repo
+* Create containers folder: mkdir src\containers, then copy the files from src/containers directory in the repo
+* Create reducers folder: mkdir src\reducers, then copy the files from src/reducers directory in the repo
+* remove logo.svg file in the root of src folder which was added automatically when creating the project, then replace the below files with the files from the src folder in the repo:
+** index.js
+** App.test.js
+** App.js
+** App.css
+* Run 'npm start' to run the application. Navigate to the localhost link shown in the cmd to access the application
+* Run 'npm test' to test the application, press a to run all tests
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Notes
+* If you are copying the files from the repsitory, run npm install after getting the project locally so it would install the needed modules so the project would run without any problems
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Enhancements
+* Expand test cases and separate each components tests in a separate file in tests folder
+* Explore the option to deploy the Side Menu component in a different project to be used in other projects as a reusable component
+* Test/Adjust the design to be responsive for different screens sizes
+* Check cross-browser compatibility to make sure the application works well on all browsers
