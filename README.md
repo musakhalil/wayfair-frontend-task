@@ -28,7 +28,7 @@ react-test-renderer  | 18.1.0
 ## Steps for building project using cmd.exe
 
 * Install create react package: npm install -g create-react-app
-* * Create react project: npx create-react-app partnerhomeapplication
+* Create react project: npx create-react-app partnerhomeapplication
 * Access created project: cd partnerhomeapplication
 * Install Redux: npm install react-redux
 * Install Redux Toolkit: npm install @reduxjs/toolkit
